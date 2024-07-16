@@ -10,12 +10,15 @@ __pycache__/
 venv/
 # We don't include the venv in our repos, make a requirements.txt file!
 
-config/
-# `config` is ignored for two reasons, potential security threats and redundant data.
+## Ignored contents:
+# In addition to ignoring these two directories, we also ignore the contents of the following:
 
-# Also of note, there is a seperate gitignore in the temp directory.
-# `temp` is just that, a place for temporary data that shouldn't be included!
-# This is a good place to store things like secrets or test outputs.
+# `temp`
+# `config`
+# `logs`
+
+# These directories are ignored for structural integrity, but their contents is ignored due to
+# potential security risks or data that should be generated during setup / runtime.
 
 # File extensions
 ############################################
